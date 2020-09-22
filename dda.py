@@ -57,4 +57,5 @@ x2 = int(input("Enter x2 pixel value: "))
 y2 = int(input("Enter y2 pixel value: "))
 
 DDA(x1,y1,x2,y2)
+plt.title("Straight line added using DDA algorithm")
 plt.show()

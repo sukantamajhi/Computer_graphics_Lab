@@ -40,4 +40,5 @@ x2 = int(input("Enter x2: "))
 y2 = int(input("Enter y2: "))
 
 bressenham(x1,y1,x2,y2)
+plt.title("Straight line added using Bressenham's Line Drawing algorithm")
 plt.show()
