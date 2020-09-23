@@ -25,6 +25,7 @@ def bres_circle(x0,y0,r):
         
 
         print(x,y)
+        
         x_plt.append(x+x0)
         y_plt.append(y+y0)
         plt.scatter(x_plt,y_plt)
@@ -57,6 +58,6 @@ def bres_circle(x0,y0,r):
         y_plt.append(-y+y0)
         plt.scatter(x_plt,y_plt)
 
-bres_circle(50,50,10)
+bres_circle(50,50,100)
 plt.title("Straight line added using Bressenham's Circle Drawing algorithm")
 plt.show()
