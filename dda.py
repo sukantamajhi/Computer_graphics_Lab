@@ -25,7 +25,7 @@ def DDA(x1, y1, x2, y2):
     x_plt = [x1]
     y_plt = [y1]
 
-    # print("\n\nBefore round")
+    # print("\n\nWithout using round function")
     # print ('x = %s, y = %s' % ((x),(y)))
     # plt.plot(x,y)
     # for i in range(0,numstep):
@@ -37,7 +37,7 @@ def DDA(x1, y1, x2, y2):
     #     y_plt.append(y)
     # plt.plot(x_plt,y_plt)
 
-    print("\n\nAfter round")
+    print("\n\nAfter using round function")
     print ('x = %s, y = %s' % (((round(x),round(y)))))
     plt.plot(x,y)
     for i in range(0,numstep):
