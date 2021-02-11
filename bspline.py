@@ -17,7 +17,7 @@ def knot_values(n, k):
 
 def basis_spline(u, t, i, k):
     if k == 1:
-        if u >= t[0][i] and u <= t[0][i+1]:
+        if t[0][i] <= u <= t[0][i + 1]:
             sol = 1
         else:
             sol = 0
